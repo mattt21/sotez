@@ -1,4 +1,4 @@
-import LedgerTransport from '@ledgerhq/hw-transport-u2f';
+import LedgerTransport from '@ledgerhq/hw-transport-webusb';
 import LedgerApp from './hw-app-xtz/Tezos';
 import { magicBytes as magicBytesMap } from './constants';
 
